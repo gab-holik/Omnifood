@@ -51,12 +51,14 @@ SPACING SYSTEM (px)
 /*Changing default font size to make it easier to use rem units*/
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 /*General components*/
 .container {
@@ -80,9 +82,6 @@ body {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
-}
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
 }
 .grid--center-v {
   align-items: center;
@@ -188,6 +187,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 .list-icon {
   width: 3rem;
