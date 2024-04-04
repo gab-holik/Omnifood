@@ -1,7 +1,7 @@
 # Omnifood
 
 The Omnifood project is part of the "Build Responsive Real-World Websites with HTML and CSS" Udemy course by Jonas Schmedtmann. Omnifood is a fictional AI powered startup that provides meal subscriptions. 
-The course focused on semantic HTML elements, design, responsive layout, performance and accessibility.
+The course focused on semantic HTML elements, web design, responsive layout, performance and accessibility.
 
 ### Screenshot
 
